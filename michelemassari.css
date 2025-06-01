@@ -4,7 +4,7 @@ nav {
     width: 100%;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    background-color: rgb(244, 220, 245);
+    background-color: #d4c6e1;
 }
 
 nav ul {
@@ -21,7 +21,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: #6b230d;
+    color: #5a4737;
     transition: color 0.3s;
 }
 
@@ -45,14 +45,15 @@ section {
 }
 
 .olaSouMi {
-  text-align: center;
-  padding: 80px 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 80px 20px;
 }
 
 .olaSouMi h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.3em;
-  font-family: 'Stoke', serif;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    font-family: 'Stoke', serif;
 }
 
 .olaSouMi p {
@@ -64,7 +65,7 @@ section {
     padding-top: 20px;
     border: 0px;
     width: 50%;
-    text-align: justify;
+    text-align: center;
     float: left;
 }
 
@@ -75,16 +76,15 @@ section {
     float: right;
 }
 
-/*
 footer {
-    background-color: #f6d9f1; 
+    background-color: #d4c6e1; 
     text-align: center;
     padding: 10px 10px;
-    color: #5c035c;
-    position: relative;
+    color: #5a4737;
     bottom: 0;
+    position: relative;
     width: 100%;
-    height: 20px;
+    height: 50px;
 }
 
 footer .imgFot {
@@ -100,10 +100,4 @@ footer .imgFot:hover {
 footer p {
     margin: 5px 0 0;
     font-size: 14px;
-}*/
-
-.imgFot {
-    width: 8%;
-    opacity: 0.8;
-    transition: transform 0.3s ease;
 }
